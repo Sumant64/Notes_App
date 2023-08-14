@@ -1,0 +1,14 @@
+--> to show all the command we describe in yargs
+    node app.js --help
+
+--> add a note:
+ node app.js add --title="task1" --body="you need to add task 1"
+
+--> remove a note: 
+node app.js remove --title="task1"
+
+--> list all note:
+node app.js list
+
+--> read a note:
+node app.js read --title="task2"
